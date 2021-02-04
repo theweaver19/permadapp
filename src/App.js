@@ -19,6 +19,8 @@ import uniswap from "./images/uniswap.jpg";
 import wbtc from "./images/wbtc.svg";
 import linkswap from "./images/linkswap.jpg";
 import arweave from "./images/arweave.png";
+import mirror from "./images/mirror.png";
+import thorchain from "./images/thorchain.png";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -73,6 +75,17 @@ const dapps = [
     border: "none",
   },
   {
+    image: mirror,
+    title: "Mirror",
+    buttonColor: "#211f24",
+    sourceCodeURL: "https://github.com/theweaver19/eth-web-app",
+    openURL: "https://mirror.permadapp.com/",
+    lastUpdated: "03/02/2021",
+    arweaveURL:
+      "https://arweave.net/rmWcWffkxU103AgJOTwhyjMXPvDdDp7cmP9HbLV0e9k",
+    border: "1px solid #47d7e2",
+  },
+  {
     image: pancakeswap,
     title: "PancakeSwap",
     buttonColor: "#44D3DB",
@@ -103,6 +116,17 @@ const dapps = [
     lastUpdated: "24/01/2021",
     arweaveURL:
       "https://arweave.net/c3p13SGhoeaTHLpqzA57COw7L9y7il3mei5S6Z4vBIk",
+    border: "none",
+  },
+  {
+    image: thorchain,
+    title: "Thorchain BEP",
+    buttonColor: "rgb(35, 220, 200)",
+    sourceCodeURL: "https://github.com/theweaver19/bepswap-web-ui",
+    openURL: "https://bepswap.permadapp.com/",
+    lastUpdated: "03/02/2021",
+    arweaveURL:
+      "https://arweave.net/FxtIHGaT6UFzcb3pxhjkzhesOCXDq0_4GMWfB3vqYw4",
     border: "none",
   },
   {
